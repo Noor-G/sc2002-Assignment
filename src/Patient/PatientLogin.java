@@ -155,5 +155,6 @@ public class PatientLogin {
 
 		listOfPatient.add(newPatient);
 		FileReading.serializing(listOfPatient, "ListOfPatient.ser");
+		System.out.println("Your new Patient ID is " + newPatient.getID());
 	}
 }
